@@ -1,3 +1,7 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
 .brand-logo {
   font-family: "Crete Round", serif;
   color: #444 !important;
@@ -10,4 +14,14 @@
 .menu-item {
   color: #444;
 	font-weight: bold;
+}
+
+.custom-button {
+  color: #fff;
+  background-color: #ff7a00;
+}
+
+.custom-button:hover {
+  color: #fff;
+  background-color: #02b8dd;
 }
