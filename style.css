@@ -32,6 +32,7 @@
 }
 
 .section-search input {
+  color: #444;
   padding: 5px 10px !important;
   font-size: 18px !important;
   width: 90% !important;
@@ -43,4 +44,12 @@
   border-bottom: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #444;
+}
+
+.autocomplete-content li .highlight {
+  color: #ff7a00;
 }
