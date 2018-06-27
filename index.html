@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
       integrity="sha512-koDUjGvRZrcni2jJFT9I3VRYY0PWNKtr1Wj9U36eLhcFgBm36KV11yTi4p2H3HwUMirxZ+dMpKeUuRjYOFjeDQ=="
       crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/js/all.js"
       integrity="sha512-vn7pO1RiR0IT5T9K+USTmMfkTaecOtFtCCV0JvT+j8ZPBujq6C3P5J2sHttG7D41pBPqLCih+7lIXamnFodtUw=="
       crossorigin="anonymous"></script>
     <title>Travel Agency</title>
   </head>
 
-  <body>
+  <body id="home" class="scrollspy">
     <!--  Navbar  -->
     <div class="navbar-fixed">
       <nav class="white">
@@ -80,9 +80,23 @@
       </ul>
     </section>
 
+    <!--  Search  -->
+    <section id="search" class="section section-search white-text center scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Search Destination</h3>
+            <div class="input-field">
+              <input type="text" id="autocomplete-input" class="white grey-text autocomplete" placeholder="Cancun, Miami, etc...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"
       integrity="sha512-zCHGovd9kHtyOdCLYmXApVFPtXQjZNyjHGU6DKPKR1HnhiSnVc71r1x7bpahdGw7mOKbz6oZ1k7/gbfRNp50ag=="
       crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
