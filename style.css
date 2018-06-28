@@ -49,8 +49,8 @@
 
 .section-search input:focus {
   border-bottom: none !important;
-  -webkit-box-shadow: none !important;
   box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
@@ -95,4 +95,20 @@
 .title-gallery {
   color: #fff;
   margin-bottom: 30px;
+}
+
+/* Contact */
+.section-contact {
+  background-color: #efefef;
+}
+
+.section-contact h5 {
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.section-contact input:focus, textarea:focus {
+  border-bottom: 1px solid #444 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
