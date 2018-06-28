@@ -1,20 +1,6 @@
-
-.brand-logo {
-  font-family: "Crete Round", serif;
-  color: #444 !important;
-}
-
+/* Main */
 .color-orange {
   color: #ff7a00;
-}
-
-.menu-item {
-  color: #444;
-	font-weight: bold;
-}
-
-.slider .btn {
-  margin-top: 20px;
 }
 
 .custom-button {
@@ -27,6 +13,27 @@
   background-color: #02b8dd;
 }
 
+.custom-button:focus {
+  background-color: #02b8dd;
+}
+
+/* Navbar */
+.brand-logo {
+  font-family: "Crete Round", serif;
+  color: #444 !important;
+}
+
+.menu-item {
+  color: #444;
+	font-weight: bold;
+}
+
+/* Slider */
+.slider .btn {
+  margin-top: 20px;
+}
+
+/* Search */
 .section-search {
   background-color: #444 !important;
 }
@@ -52,4 +59,29 @@
 
 .autocomplete-content li .highlight {
   color: #ff7a00;
+}
+
+/* Popular */
+.section-popular {
+  background-color: #efefef;
+}
+
+.title-popular {
+  color: #444;
+}
+
+.card-custom {
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card-overlay {
+  background-color: #fff;
+  opacity: 0.85;
+  width: 50%;
+  height: 230px;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
 }
