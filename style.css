@@ -68,6 +68,7 @@
 
 .title-popular {
   color: #444;
+  margin-bottom: 30px;
 }
 
 .card-custom {
@@ -84,4 +85,14 @@
   padding: 10px;
   border-radius: 10px 0 0 10px;
   text-align: center;
+}
+
+/* Gallery */
+.section-gallery {
+  background-color: #444;
+}
+
+.title-gallery {
+  color: #fff;
+  margin-bottom: 30px;
 }

@@ -25,3 +25,7 @@ M.Autocomplete.init(autoComplete, {
     "Polynesia": null,
   },
 });
+
+// Material Boxed
+const materialBoxed = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(materialBoxed, {});
