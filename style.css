@@ -100,10 +100,10 @@
 /* Contact */
 .section-contact {
   background-color: #efefef;
+  color: #444;
 }
 
 .section-contact h5 {
-  color: #444;
   margin-bottom: 30px;
 }
 
@@ -111,4 +111,34 @@
   border-bottom: 1px solid #444 !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
+}
+
+/* Footer */
+footer {
+  background-color: #444;
+  color: #fff;
+}
+
+.section-follow .fa-2x {
+  margin: 5px 10px;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-linkedin:hover {
+  color: #2867b2;
+}
+
+.fa-pinterest:hover {
+  color: #bd081c;
+}
+
+.brand-footer {
+  font-family: "Crete Round", serif;
 }
